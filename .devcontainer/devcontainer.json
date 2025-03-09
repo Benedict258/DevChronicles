@@ -1,0 +1,13 @@
+{
+  "name": "Sui Move Development",
+  "image": "mcr.microsoft.com/devcontainers/rust:latest",
+  "postCreateCommand": "cargo install --locked --git https://github.com/MystenLabs/sui.git --branch devnet sui",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "move.move-analyzer",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  }
+}
